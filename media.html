@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .row {
+        display: flex;
+      }
+    </style>
+    <title>Samuel Reda's - Home</title>
+  </head>
+  <body>
+    <header class="row">
+      <h1>Samuel Reda</h1>
+      <nav>
+        <a>Home</a>
+        <a>Resume</a>
+        <a>Projects</a>
+        <a>Media</a>
+        <a>Contact</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Images</h2>
+      <div>
+        <picture>
+          <source media="(min-width:750px)" srcset="Images/horizontal.png" />
+          <img
+            src="Images/vertical.png"
+            alt="vertical image in place of horizontal"
+          />
+        </picture>
+      </div>
+      <h2>Videos</h2>
+      <div>
+        <video
+          src="Videos/BeachSide.mp4"
+          controls
+          width="330"
+          height="240"
+        ></video>
+      </div>
+      <h2>Tutorials</h2>
+      <div>
+        <iframe
+          src="https://docs.python.org/3/tutorial/"
+          width="662"
+          height="500"
+        ></iframe>
+      </div>
+    </main>
+    <footer>&copy; 2022 - All Rights Reserved.</footer>
+  </body>
+</html>
